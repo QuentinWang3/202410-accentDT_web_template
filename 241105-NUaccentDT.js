@@ -21,7 +21,7 @@
 const jsPsych = initJsPsych({
     use_webaudio:false,
     on_finish: function(){
-        jsPsych.pavlovia.finish();
+        jsPsych.data.displayData();
     },
 });
 
@@ -339,6 +339,7 @@ var exit_fullscreen = {
 var pavlovia_finish = {
     type: "pavlovia",
     command: "finish",
+    participantID: "Demo",
     };
 
 
