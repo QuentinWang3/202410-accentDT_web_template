@@ -27,7 +27,7 @@ const jsPsych = initJsPsych({
 
 /* init connection with pavlovia.org */
 var pavlovia_init = {
-    type: "pavlovia",
+    type: jsPsychPavlovia,
     command: "init",
 };
 
@@ -337,8 +337,9 @@ var exit_fullscreen = {
 
 /* finish connection with pavlovia.org */
 var pavlovia_finish = {
-    type: "pavlovia",
+    type: jsPsychPavlovia,
     command: "finish",
+    participantId:"Demo",
     };
 
 
