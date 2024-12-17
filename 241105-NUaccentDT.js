@@ -21,7 +21,9 @@
 const jsPsych = initJsPsych({
     use_webaudio:false,
     on_finish: function(){
-        jsPsych.data.get().localSave('csv', 'myExperimentData.csv');
+        const savename = 'MyData_' + Date.now() + '.csv';
+        jsPsych.data.get().localSave('csv', savename);
+        jsPsych.pavlovia.finish();
     },
 });
 
