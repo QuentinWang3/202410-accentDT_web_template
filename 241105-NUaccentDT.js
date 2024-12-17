@@ -9,7 +9,7 @@
     2024-12-05
     - add break time
     - (done) description of "訛りの発音" (accented speech)
-    - add informed consent
+    - (done) add informed consent
     - add background information collection
     TODO
     - move experiment to github (complicated)
@@ -21,9 +21,15 @@
 const jsPsych = initJsPsych({
     use_webaudio:false,
     on_finish: function(){
-        jsPsych.data.get().localSave('csv', 'myExperimentData.csv');
+        jsPsych.data.displayData();
     },
 });
+
+/* init connection with pavlovia.org */
+var pavlovia_init = {
+    type: jsPsychPavlovia,
+    command: "init",
+};
 
 var prac_audio_preload = 
 prac_timeline_variable.map(function(obj){
@@ -329,6 +335,13 @@ var exit_fullscreen = {
     fullscreen_mode:false
 };
 
-var timeline = [preload, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, main_trial, ending, exit_fullscreen];
+/* finish connection with pavlovia.org */
+var pavlovia_finish = {
+    type: jsPsychPavlovia,
+    command: "finish",
+};
+
+
+var timeline = [pavlovia_init, preload, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, main_trial, pavlovia_finish, ending,  exit_fullscreen];
 
 jsPsych.run(timeline);
