@@ -25,6 +25,11 @@ const jsPsych = initJsPsych({
     },
 });
 
+/* init connection with pavlovia.org */
+var pavlovia_init = {
+    type: "pavlovia",
+    command: "init"};
+
 var prac_audio_preload = 
 prac_timeline_variable.map(function(obj){
     return [obj.Sound1, obj.Sound2];
@@ -329,6 +334,12 @@ var exit_fullscreen = {
     fullscreen_mode:false
 };
 
-var timeline = [preload, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, main_trial, ending, exit_fullscreen];
+/* finish connection with pavlovia.org */
+var pavlovia_finish = {
+    type: "pavlovia",
+    command: "finish" };
+
+
+var timeline = [pavlovia_init, preload, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, main_trial, ending, exit_fullscreen, pavlovia_finish];
 
 jsPsych.run(timeline);
