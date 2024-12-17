@@ -339,7 +339,6 @@ var exit_fullscreen = {
 var pavlovia_finish = {
     type: "pavlovia",
     command: "finish",
-    participantID: "Demo",
     };
 
 
