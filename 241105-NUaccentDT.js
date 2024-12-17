@@ -339,10 +339,9 @@ var exit_fullscreen = {
 var pavlovia_finish = {
     type: jsPsychPavlovia,
     command: "finish",
-    participantId:"Demo",
 };
 
 
-var timeline = [pavlovia_init, preload, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, main_trial, ending, exit_fullscreen, pavlovia_finish];
+var timeline = [pavlovia_init, preload, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, main_trial, ending, pavlovia_finish, exit_fullscreen];
 
 jsPsych.run(timeline);
