@@ -16,7 +16,7 @@
 */
 
 
-let participant_name = '';
+/*let participant_name = ''; */
 
 const jsPsych = initJsPsych({
     use_webaudio:false,
@@ -26,11 +26,12 @@ const jsPsych = initJsPsych({
     },
 });
 
-/* init connection with pavlovia.org */
+/* init connection with pavlovia.org 
 var pavlovia_init = {
     type: jsPsychPavlovia,
     command: "init",
 };
+*/
 
 var prac_audio_preload = 
 prac_timeline_variable.map(function(obj){
@@ -501,12 +502,13 @@ var exit_fullscreen = {
     fullscreen_mode:false
 };
 
-/* finish connection with pavlovia.org */
+/* finish connection with pavlovia.org 
 var pavlovia_finish = {
     type: jsPsychPavlovia,
     command: "finish",
     participantID: "participant_name",
 };
+*/
 
 var save_local_trial = {
     type: jsPsychHtmlButtonResponse,
@@ -528,6 +530,10 @@ var save_local_trial = {
     }
 };
 
+var timeline = [preload, name_input, vol_test, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, word_trial, breaktime, after_break, sent_trial, save_local_trial, ending,  exit_fullscreen];
+
+/*
 var timeline = [pavlovia_init, preload, name_input, vol_test, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, word_trial, breaktime, after_break, sent_trial, pavlovia_finish, save_local_trial, ending,  exit_fullscreen];
+*/
 
 jsPsych.run(timeline);
