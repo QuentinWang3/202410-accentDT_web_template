@@ -16,12 +16,14 @@
 */
 
 
+let participant_name = '';
 
 const jsPsych = initJsPsych({
     use_webaudio:false,
     show_progress_bar:true,
     on_finish: function(){
         jsPsych.data.displayData();
+        jsPsych.data.get().localSave('csv', participant_name+'.csv');
     },
 });
 
