@@ -1,0 +1,230 @@
+"trial_type","trial_index","time_elapsed","internal_node_id","participant_name","success","timeout","failed_images","failed_audio","failed_video","rt","response","stimulus","phase","deviceInfo","itemID","stimulus_type","correct_ans","list","content","sound1","sound2"
+"pavlovia","0","1815","0.0-0.0","Taro","","","","","","","","","","","","","","","","",""
+"preload","1","4586","0.0-1.0","Taro","true","false","[]","[]","[]","","","","","","","","","","","",""
+"survey-text","2","8255","0.0-2.0","Taro","","","","","","3648","{""participant_name"":""Taro""}","","","","","","","","","",""
+"html-button-response","3","12258","0.0-3.0-0.0","Taro","","","","","","4000","0","
+    <h1>
+    実験を始める前に、音量調節をお願いいたします。
+    </h1>
+    <p>
+    適切な音量に調節するまで、下の「再生」ボタンを押して、音量を確認しながら調節してください。
+    </p>
+
+    <audio id=""vol-test-stimulus"" src=""stimuli/word/FAS_E1M-LNTW-01-16.wav""></audio>
+    <button id=""play-button"">再生する</button>
+    
+    <p>
+    
+    音量が自分の好みになるまで何回でも再生可能です。
+    「この音量で一番聞き取れやすくて、負担がない」と自分にとって最適な音量に調節できたら、
+    
+    下のボタンを押して、次のページで聞いた内容を入力してください。
+    音量がちゃんと聞こえるように調節したと確認のためなので、少し間違っていても構いません。
+    </p>
+  ","","","","","","","","",""
+"survey-text","4","15079","0.0-3.0-1.0","Taro","","","","","","2819","{""vol-word"":""dance""}","","","","","","","","","",""
+"fullscreen","5","17159","0.0-4.0","Taro","true","","","","","","","","","","","","","","","",""
+"html-button-response","6","19160","0.0-5.0","Taro","","","","","","null","null","
+    <h1 style = ""font-size: 60px; width: 100%;"">英語発音の知覚実験</h1>
+    ","","","","","","","","",""
+"html-button-response","7","20072","0.0-6.0","Taro","","","","","","911","0","
+    <h1>
+    インストラクション：この実験では何をするの？
+    </h1>
+    <p style=""width:100%"">
+    この実験では２つの英語の音声がペアで流されます。
+
+    音声の内容は少し早く見られるように設定されています。
+
+    音声の内容を見ながら、流された２つの音声を聞き、
+
+    違う訛りの英語発音ペアであれば<span style=""background-color: yellow;"">[ F ]キー</span>を、
+
+    同じ訛りの英語発音ペアであれば <span style=""background-color: yellow;"">[ J ]キー</span>を<u>できるだけ早く正確に</u>押してください。
+
+    この実験では同じ発音／違う発音の判断をする際の正答率が記録されます。
+    </p>
+    ","","","","","","","","",""
+"html-button-response","8","20614","0.0-7.0","Taro","","","","","","541","0","
+    <h1>
+    インストラクション：訛りの発音とは？
+    </h1>
+    <p style=""width: 70%"">
+    以下の内容に対するご理解は、本実験の結果に重要な影響がありますので、読んでいただけますよう、よろしくお願いいたします。
+
+    本実験では、「訛り」というのは、母語話者の発音のバリエーションではなく、母語が異なる話者が持つ「母語訛り」のことを指しています。母語話者の発音は地域によって、多くのバリエーションが存在しますが、本研究が重視しているのは母語話者と非母語話者の英語発音の違い、かつ母語が異なる非母語話者間の違いです。
+
+    つまり、「違う訛りの英語発音ペア」というのは母語話者と非母語話者の英語発音ペア、あるいはA母語の非母語話者とB母語の非母語話者の英語発音ペアです。
+
+    上記の内容が理解できましたら、下のボタンを押すと、実験の手順に関する説明に入ります。
+    </p>
+    ","","","","","","","","",""
+"html-button-response","9","21274","0.0-8.0","Taro","","","","","","659","0","
+    <h1>
+    インストラクション：実験の手順に関するご説明
+    </h1>
+    <p>
+    音声は常に凝視点（＋）の直後に流されますので、凝視点（＋）が提示されたら、必ずそのポイントに注目してください。
+
+    この発音知覚実験はおおむね５０分程度で終了の予定ですが、途中で休憩ポイントが1回あります。
+    休憩ポイントでは遠慮なく休憩してください（例：目を閉じるや深呼吸等）。
+
+    ボタンを早く押すために、常に[ F ]と[ J ]のキーの上に指を置いてください。
+    まず実験の手順に慣れていただくために、練習を１２問準備しました。
+    準備ができましたら、 下のボタンを押して練習へ進んでください。
+    </p>
+    ","intro","{""userAgent"":""Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0"",""platform"":""MacIntel"",""language"":""zh"",""screenResolution"":""2560x1440"",""windowSize"":""1480x1136""}","","","","","","",""
+"html-keyboard-response","10","22275","0.0-9.0-0.0","Taro","","","","","","null","null","
+    <h1 style= ""font-size: 50px"">
+    +
+    </h1>","","","","","","","","",""
+"html-keyboard-response","11","22777","0.0-9.0-1.0","Taro","","","","","","null","null","
+            <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+            音声の内容は「<strong>ball</strong>」 
+            </p>","","","","","","","","",""
+"audio-keyboard-response","12","23341","0.0-9.0-2.0","Taro","","","","","","null","null","stimuli/FAS_E1M-WIPI-01-02.wav","","","","","","","","",""
+"html-keyboard-response","13","23843","0.0-9.0-3.0","Taro","","","","","","null","null","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>ball</strong>」 
+        </p>","","","","","","","","",""
+"audio-keyboard-response","14","24344","0.0-9.0-4.0","Taro","","","","","","null","null","stimuli/FAS_E5M-WIPI-01-02.wav","","","","","","","","",""
+"html-keyboard-response","15","25182","0.0-9.0-5.0","Taro","","","","","","838","f","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>ball</strong>」 
+        </p>
+    <p style=""width: 100%""> 
+    違う訛りの英語発音であれば<span style=""background-color: yellow;"">[ F ]キー</span>を、同じ訛りの英語発音であれば <span style=""background-color: yellow;"">[ J ]キー</span>を<u>押してください</u>。
+    </p>","practice","","2","EE","j","WIPI","ball","stimuli/FAS_E1M-WIPI-01-02.wav","stimuli/FAS_E5M-WIPI-01-02.wav"
+"html-keyboard-response","16","26185","0.0-9.0-0.1","Taro","","","","","","null","null","
+    <h1 style= ""font-size: 50px"">
+    +
+    </h1>","","","","","","","","",""
+"html-keyboard-response","17","26686","0.0-9.0-1.1","Taro","","","","","","null","null","
+            <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+            音声の内容は「<strong>school</strong>」 
+            </p>","","","","","","","","",""
+"audio-keyboard-response","18","27458","0.0-9.0-2.1","Taro","","","","","","null","null","stimuli/FAS_E5M-WIPI-01-01.wav","","","","","","","","",""
+"html-keyboard-response","19","27960","0.0-9.0-3.1","Taro","","","","","","null","null","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>school</strong>」 
+        </p>","","","","","","","","",""
+"audio-keyboard-response","20","28696","0.0-9.0-4.1","Taro","","","","","","null","null","stimuli/FAS_E1M-WIPI-01-01.wav","","","","","","","","",""
+"html-keyboard-response","21","29472","0.0-9.0-5.1","Taro","","","","","","775","f","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>school</strong>」 
+        </p>
+    <p style=""width: 100%""> 
+    違う訛りの英語発音であれば<span style=""background-color: yellow;"">[ F ]キー</span>を、同じ訛りの英語発音であれば <span style=""background-color: yellow;"">[ J ]キー</span>を<u>押してください</u>。
+    </p>","practice","","1","EE","j","WIPI","school","stimuli/FAS_E5M-WIPI-01-01.wav","stimuli/FAS_E1M-WIPI-01-01.wav"
+"html-button-response","22","31279","0.0-10.0","Taro","","","","","","1806","0","
+    <h1 style = ""width:100%"">
+    練習はこれで終わりです。
+    </h1>
+    <p>
+    この時点でご質問等ありましたら、Webページを閉じずに、研究員にお尋ねください。
+
+    実験の手順に関してご質問がないようでしたら、下のボタンを押すと、実験が始まります。
+    </p>
+    ","","","","","","","","",""
+"html-keyboard-response","23","32280","0.0-11.0-0.0","Taro","","","","","","null","null","
+    <h1 style= ""font-size: 50px"">
+    +
+    </h1>","","","","","","","","",""
+"html-keyboard-response","24","32782","0.0-11.0-1.0","Taro","","","","","","null","null","
+            <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+            音声の内容は「<strong>please</strong>」 
+            </p>","","","","","","","","",""
+"audio-keyboard-response","25","33560","0.0-11.0-2.0","Taro","","","","","","null","null","stimuli/word/FAS_E1M-PBKW-01-01.wav","","","","","","","","",""
+"html-keyboard-response","26","34061","0.0-11.0-3.0","Taro","","","","","","null","null","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>please</strong>」 
+        </p>","","","","","","","","",""
+"audio-keyboard-response","27","34647","0.0-11.0-4.0","Taro","","","","","","null","null","stimuli/word/FAS_E5M-PBKW-01-01.wav","","","","","","","","",""
+"html-keyboard-response","28","35142","0.0-11.0-5.0","Taro","","","","","","494","j","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>please</strong>」 
+        </p>
+    <p style=""width: 100%""> 
+    違う訛りの英語発音であれば<span style=""background-color: yellow;"">[ F ]キー</span>を、同じ訛りの英語発音であれば <span style=""background-color: yellow;"">[ J ]キー</span>を<u>押してください</u>。
+    </p>","word","","1","EE","j","PBK","please","stimuli/word/FAS_E1M-PBKW-01-01.wav","stimuli/word/FAS_E5M-PBKW-01-01.wav"
+"html-keyboard-response","29","36143","0.0-11.0-0.1","Taro","","","","","","null","null","
+    <h1 style= ""font-size: 50px"">
+    +
+    </h1>","","","","","","","","",""
+"html-keyboard-response","30","36644","0.0-11.0-1.1","Taro","","","","","","null","null","
+            <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+            音声の内容は「<strong>great</strong>」 
+            </p>","","","","","","","","",""
+"audio-keyboard-response","31","37165","0.0-11.0-2.1","Taro","","","","","","null","null","stimuli/word/FAS_E5M-PBKW-01-02.wav","","","","","","","","",""
+"html-keyboard-response","32","37668","0.0-11.0-3.1","Taro","","","","","","null","null","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>great</strong>」 
+        </p>","","","","","","","","",""
+"audio-keyboard-response","33","38189","0.0-11.0-4.1","Taro","","","","","","null","null","stimuli/word/FAS_E1M-PBKW-01-02.wav","","","","","","","","",""
+"html-keyboard-response","34","38653","0.0-11.0-5.1","Taro","","","","","","463","j","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>great</strong>」 
+        </p>
+    <p style=""width: 100%""> 
+    違う訛りの英語発音であれば<span style=""background-color: yellow;"">[ F ]キー</span>を、同じ訛りの英語発音であれば <span style=""background-color: yellow;"">[ J ]キー</span>を<u>押してください</u>。
+    </p>","word","","2","EE","j","PBK","great","stimuli/word/FAS_E5M-PBKW-01-02.wav","stimuli/word/FAS_E1M-PBKW-01-02.wav"
+"html-button-response","35","40551","0.0-12.0","Taro","","","","","","1897","0","
+    <h1>
+    休憩のお時間です！お疲れ様です！
+    </h1>
+    <p style=""width:100%"">
+    これまでの実験、いかがですか？
+
+    大変かと思いますが、あと少しで終わります。
+
+    少し体を動かしたり、水分補給をしたりして、５分以内の休憩を取りましょう。
+
+    休憩が終わりましたら、下のボタンを押して、実験を続けてください。
+    </p>
+    ","","","","","","","","",""
+"html-button-response","36","41676","0.0-13.0","Taro","","","","","","1124","0","
+    <h1 style=""width:100%"">
+    実験に戻りましょう！
+    </h1>","","","","","","","","",""
+"html-keyboard-response","37","42678","0.0-14.0-0.0","Taro","","","","","","null","null","
+    <h1 style= ""font-size: 50px"">
+    +
+    </h1>","","","","","","","","",""
+"html-keyboard-response","38","43179","0.0-14.0-1.0","Taro","","","","","","null","null","
+            <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+            音声の内容は「<strong>The clown had a funny face.</strong>」 
+            </p>","","","","","","","","",""
+"audio-keyboard-response","39","45208","0.0-14.0-2.0","Taro","","","","","","null","null","stimuli/FAS_E1M-BKBR-01-01.wav","","","","","","","","",""
+"html-keyboard-response","40","45709","0.0-14.0-3.0","Taro","","","","","","null","null","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>The clown had a funny face.</strong>」 
+        </p>","","","","","","","","",""
+"audio-keyboard-response","41","47661","0.0-14.0-4.0","Taro","","","","","","null","null","stimuli/FAS_E5M-BKBR-01-01.wav","","","","","","","","",""
+"html-keyboard-response","42","47938","0.0-14.0-5.0","Taro","","","","","","276","f","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>The clown had a funny face.</strong>」 
+        </p>
+    <p style=""width: 100%""> 
+    違う訛りの英語発音であれば<span style=""background-color: yellow;"">[ F ]キー</span>を、同じ訛りの英語発音であれば <span style=""background-color: yellow;"">[ J ]キー</span>を<u>押してください</u>。
+    </p>","sentence","","1","EE","j","BKB","The clown had a funny face.","stimuli/FAS_E1M-BKBR-01-01.wav","stimuli/FAS_E5M-BKBR-01-01.wav"
+"html-keyboard-response","43","48941","0.0-14.0-0.1","Taro","","","","","","null","null","
+    <h1 style= ""font-size: 50px"">
+    +
+    </h1>","","","","","","","","",""
+"html-keyboard-response","44","49442","0.0-14.0-1.1","Taro","","","","","","null","null","
+            <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+            音声の内容は「<strong>The car engine is running.</strong>」 
+            </p>","","","","","","","","",""
+"audio-keyboard-response","45","51138","0.0-14.0-2.1","Taro","","","","","","null","null","stimuli/FAS_E1M-BKBR-01-02.wav","","","","","","","","",""
+"html-keyboard-response","46","51639","0.0-14.0-3.1","Taro","","","","","","null","null","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>The car engine is running.</strong>」 
+        </p>","","","","","","","","",""
+"audio-keyboard-response","47","53485","0.0-14.0-4.1","Taro","","","","","","null","null","stimuli/FAS_E5M-BKBR-01-02.wav","","","","","","","","",""
+"html-keyboard-response","48","53730","0.0-14.0-5.1","Taro","","","","","","244","f","
+        <p style= ""white-space: nowrap;text-align: center; padding: 20px; background-color: lightgray;"">
+        音声の内容は「<strong>The car engine is running.</strong>」 
+        </p>
+    <p style=""width: 100%""> 
+    違う訛りの英語発音であれば<span style=""background-color: yellow;"">[ F ]キー</span>を、同じ訛りの英語発音であれば <span style=""background-color: yellow;"">[ J ]キー</span>を<u>押してください</u>。
+    </p>","sentence","","2","EE","j","BKB","The car engine is running.","stimuli/FAS_E1M-BKBR-01-02.wav","stimuli/FAS_E5M-BKBR-01-02.wav"
