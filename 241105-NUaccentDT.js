@@ -489,10 +489,10 @@ var ending = {
     お手数をおかけしますが、実験完了後、研究者にその旨をご連絡いただき、実験結果のファイルを添付してメールで送信してください。
 
     また、ご質問がございましたら、いつでもご連絡いただければ幸いです。
-
-    下のボタンを押して、実験結果のファイルを保存してください。保存完了後は、Webページを閉じていただいても大丈夫です。
+    
+    ファイルを保存したと確認できたら、下のボタンを押していただいて、実験が終わります。
     </p>`,
-    choices:["結果を保存します。"],
+    choices:["ファイルを保存しました。実験を終わります。"],
     response_ends_trial: true
 };
 
@@ -513,13 +513,18 @@ var save_local_trial = {
     stimulus: `
     <p style="width = 100%">
     実験結果データはアップロードしました。ローカルでの保存もお願いいたします。
+
+    下のボタンを押して、実験結果のファイルを保存してください。
     </p>
     `,
     choices: ['実験結果ファイルを保存します。'],
     on_finish: function() {
         const participant_name = jsPsych.data.get().filter({trial_type: 'survey-text'}).values()[0].response.participant_name;
-        const timestamp = Date.now();
-        jsPsych.data.get().localSave('csv', participant_name + '_' + timestamp + '.csv');
+        const safeParticipantName = participant_name.replace(/[^a-zA-Z0-9_\-]/g, '_');
+        const timestamp = new Date();
+        const formattedts = timestamp.toISOString().split('.')[0].replace(/[:.-]/g, '_');
+        const fileName = `${safeParticipantName}_${formattedts}.csv`
+        jsPsych.data.get().localSave('csv', fileName);
     }
 };
 
