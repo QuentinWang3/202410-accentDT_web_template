@@ -509,7 +509,20 @@ var pavlovia_finish = {
     participantID: "participant_name",
 };
 
+var save_local_trial = {
+    type: jsPsychHtmlButtonResponse,
+    stimulus: `
+    <p style="width = 100%">
+    実験結果データはアップロードしました。ローカルでの保存もお願いいたします。
+    </p>
+    `,
+    choices: ['実験結果ファイルを保存します。'],
+    on_finish: function() {
+        const timestamp = Date.now();
+        jsPsych.data.get().localSave('csv', participant_name + '_' + timestamp + '.csv');
+    }
+};
 
-var timeline = [pavlovia_init, preload, name_input, vol_test, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, word_trial, breaktime, after_break, sent_trial, pavlovia_finish, ending,  exit_fullscreen];
+var timeline = [pavlovia_init, preload, name_input, vol_test, fullscreen, title, instruction_1, instruction_2, instruction_3, prac_trial, prac_end, word_trial, breaktime, after_break, sent_trial, pavlovia_finish, save_local_trial, ending,  exit_fullscreen];
 
 jsPsych.run(timeline);
