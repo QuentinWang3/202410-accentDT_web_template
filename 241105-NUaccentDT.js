@@ -75,7 +75,7 @@ var name_input = {
       });
       
       // 动态更新 pavlovia_finish 的 participantID
-      pavlovia_finish.participantID = data.response.participant_name;
+      /*pavlovia_finish.participantID = data.response.participant_name;*/
     }
 };
 
