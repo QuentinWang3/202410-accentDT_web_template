@@ -23,7 +23,6 @@ const jsPsych = initJsPsych({
     show_progress_bar:true,
     on_finish: function(){
         jsPsych.data.displayData();
-        jsPsych.data.get().localSave('csv', participant_name+'.csv');
     },
 });
 
@@ -518,6 +517,7 @@ var save_local_trial = {
     `,
     choices: ['実験結果ファイルを保存します。'],
     on_finish: function() {
+        const participant_name = jsPsych.data.get().filter({trial_type: 'survey-text'}).values()[0].response.participant_name;
         const timestamp = Date.now();
         jsPsych.data.get().localSave('csv', participant_name + '_' + timestamp + '.csv');
     }
